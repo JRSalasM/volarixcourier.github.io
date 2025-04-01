@@ -35,7 +35,7 @@ document.querySelector(".btn-brand-1-big").addEventListener("click", function() 
     total += shippingCost
 
     if (cost > 200) {
-        tax = cost * 0.26;
+        tax = cost * 0.22;
         total += tax;
     }
 
@@ -49,7 +49,7 @@ document.querySelector(".btn-brand-1-big").addEventListener("click", function() 
     Valor declarado: $${cost.toFixed(2)}
     -------------------------
     Costo por ${weight} kilos: $${shippingCost.toFixed(2)}
-    ${tax > 0 ? `Impuestos (26%): $${tax.toFixed(2)}` : ""}
+    ${tax > 0 ? `Impuestos (22%): $${tax.toFixed(2)}` : ""}
     ${service_1 > 0 ? `Reempaquetado ($6 x caja): $${(6).toFixed(2)}` : ""}
     ${service_2 > 0 ? `Cambio consignatario ($3): $${(3).toFixed(2)}` : ""}
     ${service_3 > 0 ? `Consolidación ($1): $${(1).toFixed(1)}` : ""}
@@ -65,7 +65,7 @@ document.querySelector(".btn-brand-1-big").addEventListener("click", function() 
             <p><strong>Valor declarado:</strong> $${cost.toFixed(2)}</p>
             <hr/>
             <p><strong>Costo por ${weight} kilos:</strong> $${shippingCost.toFixed(2)}</p>
-            ${tax > 0 ? `<p><strong>Impuestos (26%):</strong> $${tax.toFixed(2)}</p>` : ""}
+            ${tax > 0 ? `<p><strong>Impuestos (22%):</strong> $${tax.toFixed(2)}</p>` : ""}
             ${service_1 > 0 ? `<p><strong>Reempaquetado ($6 x caja):</strong> $${(6).toFixed(2)}</p>` : ""}
             ${service_2 > 0 ? `<p><strong>Cambio consignatario ($3):</strong> $${(3).toFixed(2)}</p>` : ""}
             ${service_3 > 0 ? `<p><strong>Consolidación ($1):</strong> $${(1).toFixed(1)}</p>` : ""}
