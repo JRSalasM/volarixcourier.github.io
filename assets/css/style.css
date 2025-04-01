@@ -7406,7 +7406,6 @@ a.color-brand-2:hover {
   }
   .box-bar .phone-icon {
     overflow: hidden;
-    width: 20px;
     height: 20px;
     margin-right: 10px !important;
   }
@@ -7415,9 +7414,19 @@ a.color-brand-2:hover {
   }
   .box-bar .email-icon {
     overflow: hidden;
-    width: 20px;
     height: 20px;
   }
+
+  .box-bar .content-phone-box{
+    text-align: center!important;
+  }
+  .box-bar .content-email-box{
+    text-align: center!important;
+  }
+  .box-bar .content-schedule-box{
+    text-align: center!important;
+  }
+
   .box-get-quote {
     flex-wrap: wrap;
   }
