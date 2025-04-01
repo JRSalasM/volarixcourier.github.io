@@ -2387,14 +2387,14 @@ iframe {
 }
 .header .main-header .header-left .header-nav {
   display: inline-block;
-  width: 75%;
+  width: 100%;
   text-align: left;
   padding-left: 50px;
 }
 .header .main-header .header-left .header-right {
-  width: 35%;
+  width: 25%;
   text-align: right;
-  min-width: 337px;
+  min-width: 250px;
 }
 .header .main-header .header-left .header-right .icon-list {
   display: inline-block;
@@ -2877,6 +2877,7 @@ iframe {
 .box-bar {
   padding: 13px 0px;
   color: #fff;
+  background-color: #1f0f4b;
 }
 .box-bar .icon-socials {
   display: inline-block;
@@ -3187,7 +3188,7 @@ iframe {
   height: 20px;
   cursor: pointer;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-  top: 8px;
+  top: 27px;
   right: 0px;
   z-index: 1004;
 }
@@ -7910,4 +7911,26 @@ a.color-brand-2:hover {
   align-items: center;
   align-content: center;
   height: 150px;
+}
+
+.title-slider{
+  font-size: 80px;
+}
+
+@media (max-width: 768px) {
+  .title-slider {
+    font-size: 45px;
+  }
+}
+
+.icon-socials.icon-tiktok {
+  background: url(../imgs/template/icons/tiktok.svg) no-repeat center;
+  transition-duration: 0.2s;
+}
+
+.icon-socials.icon-tiktok:hover {
+  transition-duration: 0.2s;
+}
+html {
+  scroll-padding-top: 150px;
 }

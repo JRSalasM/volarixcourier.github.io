@@ -588,7 +588,7 @@ function initSwiper3Item() {
     // }
     swiper_3_customers = new Swiper(".swiper-group-3-customers", {
         spaceBetween: 30,
-        slidesPerView: 3,
+        slidesPerView: 4,
         slidesPerGroup: 1,
         loop: true,
         navigation: {
@@ -600,7 +600,7 @@ function initSwiper3Item() {
             clickable: true
         },
         autoplay: {
-            delay: 10000
+            delay: 3000
         },
         on: {
             beforeInit: function () {
@@ -618,7 +618,7 @@ function initSwiper3Item() {
         },
         breakpoints: {
             1199: {
-                slidesPerView: 3
+                slidesPerView: 4
             },
             800: {
                 slidesPerView: 2
